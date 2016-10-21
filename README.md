@@ -6,9 +6,9 @@
 + PHP 5.5.9+
 
 
-## Iniciando ##
+# Iniciando 
 
-#### Instalamos laravel
+## Instalamos laravel
 
 Creamos un nuevo proyecto con laravel
 
@@ -21,7 +21,7 @@ Añadir su configuración de base de datos para el archivo __.env__ mediante la 
     DB_USERNAME=homestead
     DB_PASSWORD=secret
 
-#### Instalamos Dingo API
+## Instalamos Dingo API
 
 El paquete __Dingo API__ tiene una amplia [documentación disponible](https://github.com/dingo/api/wiki), se utiliza para la creacion de REST APi 
 
@@ -45,7 +45,7 @@ Añadir algunas opciones básicas de configuración en el fichero de .env
     API_NAME="My API"
     API_DEBUG=true
     
-### Instalamos Tymon JWT-Auth    
+## Instalamos Tymon JWT-Auth    
 
 El paquete __Tymon JWT-Auth__ tiene una amplia [documentación disponible](https://github.com/tymondesigns/jwt-auth/wiki), se utiliza para la autenticación por medio Token
 
@@ -88,7 +88,7 @@ Ahora que la JWT autenticación y paquetes de API están instalados, tenemos que
     
  
  
-### configuración y uso de la API JSON
+## configuración y uso de la API JSON
 
 JSON API es un estándar para las API que utilizan datos JSON y ha sido el adaptador de ajuste por defecto en Ember desde la versión 2.0. Con el fin de hacer que los datos de retorno de la API JSON API de formato sólo tenemos que configurar Dingo API para utilizar el JsonApiSerializer que viene con.
 
@@ -110,5 +110,5 @@ Primero agregue las siguientes instrucciones de uso:
          return new Fractal($fractal);
     });
     
-    
+# configuración de Routas con Dingo Api
 
