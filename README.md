@@ -5,6 +5,8 @@
 + [Dingo API 1.0.0 (beta)](https://github.com/dingo/api)
 + [Tymon jwt-auth 0.5.9](https://github.com/tymondesigns/jwt-auth)
 + PHP 5.5.9+
++ [UUID Laravel] (https://github.com/webpatser/laravel-uuid)
+
 
 
 # Iniciando
