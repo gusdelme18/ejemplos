@@ -252,3 +252,10 @@ Y creamo otro metodo __refreshToken__ que es el que se encarga de atualizar el t
             }
             return $this->response->array(compact('token'));
         }
+        
+
+
+
+Creación de una Modelo y migración
+
+        php artisan make:model User -m
