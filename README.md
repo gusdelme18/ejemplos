@@ -259,3 +259,5 @@ Y creamo otro metodo __refreshToken__ que es el que se encarga de atualizar el t
 Creación de una Modelo y migración
 
         php artisan make:model User -m
+        
+        php artisan make:controller Api/V1/testController --resource
